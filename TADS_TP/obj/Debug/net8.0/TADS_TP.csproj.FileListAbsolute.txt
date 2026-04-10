@@ -137,3 +137,4 @@ C:\Users\Meu Computador\source\repos\TADS_TP\TADS_TP\obj\Debug\net8.0\refint\TAD
 C:\Users\Meu Computador\source\repos\TADS_TP\TADS_TP\obj\Debug\net8.0\TADS_TP.pdb
 C:\Users\Meu Computador\source\repos\TADS_TP\TADS_TP\obj\Debug\net8.0\TADS_TP.genruntimeconfig.cache
 C:\Users\Meu Computador\source\repos\TADS_TP\TADS_TP\obj\Debug\net8.0\ref\TADS_TP.dll
+C:\Users\Meu Computador\source\repos\TADS_TP\TADS_TP\obj\Debug\net8.0\TADS_TP.sourcelink.json
