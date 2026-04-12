@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using TADS_TP.DTOs;
 using TADS_TP.Models;
 using TADS_TP.Services;
 
@@ -7,7 +8,7 @@ namespace TADS_TP.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class AluguelController : Controller
+    public class AluguelController : ControllerBase
     {
         private readonly AluguelService _service;
 
@@ -19,7 +20,15 @@ namespace TADS_TP.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var alugueis = _service.GetAll();
+            var alugueis = _service.GetAll()
+               .Select(a => new AluguelResponseDTO
+               {
+                   Id = a.Id,
+                   DataInicio = a.DataInicio,
+                   DataFim = a.DataFim,
+                   ValorTotal = a.ValorTotal
+               });
+
             return Ok(alugueis);
         }
 
@@ -28,8 +37,17 @@ namespace TADS_TP.Controllers
         {
             try
             {
-                var aluguel = _service.GetById(id);
-                return Ok(aluguel); 
+                var a = _service.GetById(id);
+
+                var dto = new AluguelResponseDTO
+                {
+                    Id = a.Id,
+                    DataInicio = a.DataInicio,
+                    DataFim = a.DataFim,
+                    ValorTotal = a.ValorTotal
+                };
+
+                return Ok(dto);
             }
             catch (Exception e)
             {
@@ -38,12 +56,23 @@ namespace TADS_TP.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] AluguelModel aluguel)
+        public IActionResult Post([FromBody] AluguelRequestDTO dto)
         {
             try
             {
+                var aluguel = new AluguelModel
+                {
+                    DataInicio = dto.DataInicio,
+                    DataFim = dto.DataFim,
+                    QuilometragemInicial = dto.QuilometragemInicial,
+                    ValorDiaria = dto.ValorDiaria,
+                    VeiculoId = dto.VeiculoId,
+                    ClienteId = dto.ClienteId
+                };
+
                 _service.Create(aluguel);
-                return CreatedAtAction(nameof(Get), new { id = aluguel.Id }, aluguel); 
+
+                return CreatedAtAction(nameof(Get), new { id = aluguel.Id }, aluguel);
             }
             catch (Exception e)
             {
@@ -52,10 +81,21 @@ namespace TADS_TP.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] AluguelModel aluguel)
+        public IActionResult Put(int id, [FromBody] AluguelUpdateDTO dto)
         {
             try
             {
+                var aluguel = new AluguelModel
+                {
+                    Id = id,
+                    DataInicio = dto.DataInicio,
+                    DataFim = dto.DataFim,
+                    QuilometragemInicial = dto.QuilometragemInicial,
+                    QuilometragemFinal = dto.QuilometragemFinal,
+                    ValorDiaria = dto.ValorDiaria,
+                    DataDevolucao = dto.DataDevolucao
+                };
+
                 _service.Update(id, aluguel);
                 return NoContent(); 
             }
@@ -84,7 +124,17 @@ namespace TADS_TP.Controllers
         {
             try
             {
-                var dados = _service.GetCompleto();
+                var dados = _service.GetCompleto()
+                    .Select(a => new AluguelResponseDTO
+                    {
+                        Id = a.Id,
+                        DataInicio = a.DataInicio,
+                        DataFim = a.DataFim,
+                        ValorTotal = a.ValorTotal,
+                        ClienteNome = a.Cliente.Nome,
+                        VeiculoModelo = a.Veiculo.Modelo
+                    });
+
                 return Ok(dados);
             }
             catch (Exception e)
@@ -98,7 +148,15 @@ namespace TADS_TP.Controllers
         {
             try
             {
-                var alugueis = _service.GetByCliente(clienteId);
+                var alugueis = _service.GetByCliente(clienteId)
+                    .Select(a => new AluguelResponseDTO
+                    {
+                        Id = a.Id,
+                        DataInicio = a.DataInicio,
+                        DataFim = a.DataFim,
+                        ValorTotal = a.ValorTotal
+                    });
+
                 return Ok(alugueis);
             }
             catch (Exception e)
@@ -113,7 +171,15 @@ namespace TADS_TP.Controllers
         {
             try
             {
-                var alugueis = _service.GetByValor(valor);
+                var alugueis = _service.GetByValor(valor)
+                    .Select(a => new AluguelResponseDTO
+                    {
+                        Id = a.Id,
+                        DataInicio = a.DataInicio,
+                        DataFim = a.DataFim,
+                        ValorTotal = a.ValorTotal
+                    });
+
                 return Ok(alugueis);
             }
             catch (Exception e)

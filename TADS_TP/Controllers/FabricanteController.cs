@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TADS_TP.DTOs;
 using TADS_TP.Models;
 using TADS_TP.Services;
 
@@ -18,16 +19,29 @@ namespace TADS_TP.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_service.GetAll());
+            var fabricantes = _service.GetAll()
+                .Select(f => new FabricanteResponseDTO
+                {
+                    Id = f.Id,
+                    Nome = f.Nome,
+                    Contato = f.Contato
+                });
+
+            return Ok(fabricantes);
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] FabricanteModel cliente)
+        public IActionResult Post([FromBody] FabricanteRequestDTO dto)
         {
             try
             {
-                _service.Create(cliente);
-                return Ok(cliente);
+                var fabricante = new FabricanteModel
+                {
+                    Nome = dto.Nome,
+                    Contato = dto.Contato
+                };
+                _service.Create(fabricante);
+                return CreatedAtAction(nameof(Get), new { id = fabricante.Id }, fabricante);
             }
             catch (Exception e)
             {
@@ -50,12 +64,17 @@ namespace TADS_TP.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] FabricanteModel cliente)
+        public IActionResult Put(int id, [FromBody] FabricanteRequestDTO dto)
         {
             try
             {
-                _service.Update(id, cliente);
-                return Ok();
+                var fabricante = new FabricanteModel
+                {
+                    Nome = dto.Nome,
+                    Contato = dto.Contato
+                };
+                _service.Update(id, fabricante);
+                return Ok(fabricante);
             }
             catch (Exception e)
             {
@@ -68,8 +87,16 @@ namespace TADS_TP.Controllers
         {
             try
             {
-                _service.GetById(id);
-                return Ok();
+                var f = _service.GetById(id);
+
+                var dto = new FabricanteResponseDTO
+                {
+                    Id = f.Id,
+                    Nome = f.Nome,
+                    Contato = f.Contato
+                };
+
+                return Ok(dto);
             }
             catch (Exception e)
             {

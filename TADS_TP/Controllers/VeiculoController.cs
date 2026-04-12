@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TADS_TP.DTOs;
 using TADS_TP.Models;
 using TADS_TP.Services;
 
@@ -17,7 +18,15 @@ namespace TADS_TP.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var veiculos = _service.GetAll();
+            var veiculos = _service.GetAll()
+            .Select(v => new VeiculoResponseDTO
+            {
+                Id = v.Id,
+                Modelo = v.Modelo,
+                Ano = v.Ano,
+                Quilometragem = v.Quilometragem
+            });
+
             return Ok(veiculos);
         }
 
@@ -27,7 +36,17 @@ namespace TADS_TP.Controllers
             try
             {
                 var veiculo = _service.GetById(id);
-                return Ok(veiculo); 
+
+                var dto = new VeiculoResponseDTO
+                {
+                    Id = veiculo.Id,
+                    Modelo = veiculo.Modelo,
+                    Ano = veiculo.Ano,
+                    Quilometragem = veiculo.Quilometragem,
+                    FabricanteId = veiculo.FabricanteId
+                };
+
+                return Ok(dto); 
             }
             catch (Exception e)
             {
@@ -36,10 +55,18 @@ namespace TADS_TP.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] VeiculoModel veiculo)
+        public IActionResult Post([FromBody] VeiculoRequestDTO dto)
         {
             try
             {
+                var veiculo = new VeiculoModel
+                {
+                    Modelo = dto.Modelo,
+                    Ano = dto.Ano,
+                    Quilometragem = dto.Quilometragem,
+                    FabricanteId = dto.FabricanteId
+                };
+
                 _service.Create(veiculo);
                 return CreatedAtAction(nameof(Get), new { id = veiculo.Id }, veiculo);
             }
@@ -50,10 +77,19 @@ namespace TADS_TP.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] VeiculoModel veiculo)
+        public IActionResult Put(int id, [FromBody] VeiculoRequestDTO dto)
         {
             try
             {
+                var veiculo = new VeiculoModel
+                {
+                    Id = id,
+                    Modelo = dto.Modelo,
+                    Ano = dto.Ano,
+                    Quilometragem = dto.Quilometragem,
+                    FabricanteId = dto.FabricanteId
+                };
+
                 _service.Update(id, veiculo);
                 return NoContent();
             }
@@ -82,7 +118,15 @@ namespace TADS_TP.Controllers
         {
             try
             {
-                var veiculos = _service.GetByFabricante(nomeFabricante);
+                var veiculos = _service.GetByFabricante(nomeFabricante)
+                    .Select(c => new VeiculoResponseDTO
+                    {
+                        Id = c.Id,
+                        Modelo = c.Modelo,
+                        Ano = c.Ano,
+                        Quilometragem = c.Quilometragem,
+                        FabricanteId = c.FabricanteId
+                    }); ;
                 return Ok(veiculos);
             }
             catch (Exception e)

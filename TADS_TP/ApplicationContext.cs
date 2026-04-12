@@ -5,6 +5,10 @@ namespace TADS_TP
 {
     public class ApplicationContext : DbContext
     {
+        public ApplicationContext(DbContextOptions<ApplicationContext> options)
+        : base(options)
+        {
+        }
         public DbSet<FabricanteModel> Fabricantes { get; set; }
         public DbSet<VeiculoModel> Veiculos { get; set; }
         public DbSet<ClienteModel> Clientes { get; set; }

@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\dtos\\pagamentorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\dtos\\pagamentorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\controllers\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\controllers\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\dtos\\pagamentoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\dtos\\pagamentoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\repositories\\pagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\repositories\\pagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\controllers\\aluguelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\controllers\\aluguelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\controllers\\fabricantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\controllers\\fabricantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\models\\pagamentomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\models\\pagamentomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\controllers\\veiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\services\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\services\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\migrations\\20260403143634_tads_tp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\migrations\\20260403143634_tads_tp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\controllers\\aluguelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\controllers\\aluguelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\dtos\\veiculoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\dtos\\veiculoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\dtos\\veiculorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\dtos\\veiculorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|c:\\users\\meu computador\\source\\repos\\tads_tp\\tads_tp\\dtos\\clienterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3DA69D1-BAC5-453E-A526-A4E69A77983D}|TADS_TP\\TADS_TP.csproj|solutionrelative:tads_tp\\dtos\\clienterequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +66,184 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VeiculoController.cs",
-              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\VeiculoController.cs",
-              "RelativeDocumentMoniker": "TADS_TP\\Controllers\\VeiculoController.cs",
-              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\VeiculoController.cs*",
-              "RelativeToolTip": "TADS_TP\\Controllers\\VeiculoController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\ApplicationContext.cs",
+              "RelativeToolTip": "TADS_TP\\ApplicationContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T14:04:27.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FabricanteController.cs",
-              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\FabricanteController.cs",
-              "RelativeDocumentMoniker": "TADS_TP\\Controllers\\FabricanteController.cs",
-              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\FabricanteController.cs*",
-              "RelativeToolTip": "TADS_TP\\Controllers\\FabricanteController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T14:04:13.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AluguelController.cs",
-              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\AluguelController.cs",
-              "RelativeDocumentMoniker": "TADS_TP\\Controllers\\AluguelController.cs",
-              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\AluguelController.cs*",
-              "RelativeToolTip": "TADS_TP\\Controllers\\AluguelController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T14:04:04.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PagamentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Repositories\\PagamentoRepository.cs",
-              "RelativeDocumentMoniker": "TADS_TP\\Repositories\\PagamentoRepository.cs",
-              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Repositories\\PagamentoRepository.cs",
-              "RelativeToolTip": "TADS_TP\\Repositories\\PagamentoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T13:49:08.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PagamentoService.cs",
-              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Services\\PagamentoService.cs",
-              "RelativeDocumentMoniker": "TADS_TP\\Services\\PagamentoService.cs",
-              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Services\\PagamentoService.cs",
-              "RelativeToolTip": "TADS_TP\\Services\\PagamentoService.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwE4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T13:48:59.264Z",
+              "WhenOpened": "2026-04-12T17:45:14.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "TADS_TP\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\ClienteController.cs*",
-              "RelativeToolTip": "TADS_TP\\Controllers\\ClienteController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Program.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\Program.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Program.cs",
+              "RelativeToolTip": "TADS_TP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T13:48:03.184Z",
+              "WhenOpened": "2026-04-12T17:43:43.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "20260403143634_TADS_TP.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Migrations\\20260403143634_TADS_TP.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\Migrations\\20260403143634_TADS_TP.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Migrations\\20260403143634_TADS_TP.cs",
+              "RelativeToolTip": "TADS_TP\\Migrations\\20260403143634_TADS_TP.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T17:41:46.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagamentoResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\PagamentoResponseDTO.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\DTOs\\PagamentoResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\PagamentoResponseDTO.cs",
+              "RelativeToolTip": "TADS_TP\\DTOs\\PagamentoResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T17:40:39.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagamentoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Models\\PagamentoModel.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\Models\\PagamentoModel.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Models\\PagamentoModel.cs",
+              "RelativeToolTip": "TADS_TP\\Models\\PagamentoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T17:40:09.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagamentoRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\PagamentoRequestDTO.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\DTOs\\PagamentoRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\PagamentoRequestDTO.cs",
+              "RelativeToolTip": "TADS_TP\\DTOs\\PagamentoRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T17:39:32.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AluguelController.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\AluguelController.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\Controllers\\AluguelController.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\AluguelController.cs",
+              "RelativeToolTip": "TADS_TP\\Controllers\\AluguelController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAmwLQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T17:31:16.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VeiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\VeiculoController.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\Controllers\\VeiculoController.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\VeiculoController.cs",
+              "RelativeToolTip": "TADS_TP\\Controllers\\VeiculoController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwFYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:48:13.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "TADS_TP\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:21:34.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PagamentoController.cs",
               "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\PagamentoController.cs",
               "RelativeDocumentMoniker": "TADS_TP\\Controllers\\PagamentoController.cs",
               "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Controllers\\PagamentoController.cs",
               "RelativeToolTip": "TADS_TP\\Controllers\\PagamentoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwH4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T13:43:54.076Z",
+              "WhenOpened": "2026-04-12T14:48:13.05Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VeiculoResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\VeiculoResponseDTO.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\DTOs\\VeiculoResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\VeiculoResponseDTO.cs",
+              "RelativeToolTip": "TADS_TP\\DTOs\\VeiculoResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:46:28.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VeiculoRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\VeiculoRequestDTO.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\DTOs\\VeiculoRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\VeiculoRequestDTO.cs",
+              "RelativeToolTip": "TADS_TP\\DTOs\\VeiculoRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:21:19.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Models\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\Models\\ClienteModel.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\Models\\ClienteModel.cs",
+              "RelativeToolTip": "TADS_TP\\Models\\ClienteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:20:10.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClienteRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\ClienteRequestDTO.cs",
+              "RelativeDocumentMoniker": "TADS_TP\\DTOs\\ClienteRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\DTOs\\ClienteRequestDTO.cs",
+              "RelativeToolTip": "TADS_TP\\DTOs\\ClienteRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:20:09.209Z"
             }
           ]
         }
