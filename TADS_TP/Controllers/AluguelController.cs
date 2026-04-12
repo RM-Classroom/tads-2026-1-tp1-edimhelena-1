@@ -4,7 +4,9 @@ using TADS_TP.Models;
 using TADS_TP.Services;
 
 namespace TADS_TP.Controllers
-{ 
+{
+    [ApiController]
+    [Route("[controller]")]
     public class AluguelController : Controller
     {
         private readonly AluguelService _service;

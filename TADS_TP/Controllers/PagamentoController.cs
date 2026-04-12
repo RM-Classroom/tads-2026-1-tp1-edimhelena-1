@@ -6,11 +6,11 @@ namespace TADS_TP.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ClienteController : Controller
+    public class PagamentoController : Controller
     {
-        private readonly ClienteService _service;
+        private readonly PagamentoService _service;
 
-        public ClienteController(ClienteService service)
+        public PagamentoController(PagamentoService service)
         {
             _service = service;
         }
@@ -22,12 +22,12 @@ namespace TADS_TP.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] ClienteModel cliente)
+        public IActionResult Post([FromBody] PagamentoModel pagamento)
         {
             try
             {
-                _service.Create(cliente);
-                return Ok(cliente);
+                _service.Create(pagamento);
+                return Ok(pagamento);
             }
             catch (Exception e)
             {
@@ -50,11 +50,11 @@ namespace TADS_TP.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] ClienteModel cliente)
+        public IActionResult Put(int id, [FromBody] PagamentoModel pagamento)
         {
             try
             {
-                _service.Update(id, cliente);
+                _service.Update(id, pagamento);
                 return Ok();
             }
             catch (Exception e)
@@ -70,6 +70,20 @@ namespace TADS_TP.Controllers
             {
                 _service.GetById(id);
                 return Ok();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+        [HttpGet("/aluguel/{aluguelId}")]
+        public IActionResult GetByAluguel(int aluguelId)
+        {
+            try
+            {
+                var pagamentos = _service.GetByAluguel(aluguelId);
+                return Ok(pagamentos);
             }
             catch (Exception e)
             {

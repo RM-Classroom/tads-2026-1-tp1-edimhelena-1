@@ -4,6 +4,8 @@ using TADS_TP.Services;
 
 namespace TADS_TP.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class FabricanteController : Controller
     {
         private readonly FabricanteService _service;
