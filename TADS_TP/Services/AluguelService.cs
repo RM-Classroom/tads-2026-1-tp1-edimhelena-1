@@ -97,7 +97,7 @@ namespace TADS_TP.Services
             return alugueis;
         }
 
-        public List<AluguelModel> GetByValor(decimal valor)
+        public List<AluguelModel> GetByValor(double valor)
         {
             var alugueis = _repository.GetByValor(valor);
 

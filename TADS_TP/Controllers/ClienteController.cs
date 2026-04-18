@@ -6,7 +6,7 @@ using TADS_TP.Services;
 namespace TADS_TP.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ClienteController : Controller
     {
         private readonly ClienteService _service;

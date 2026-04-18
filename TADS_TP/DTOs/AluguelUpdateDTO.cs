@@ -6,7 +6,7 @@
         public DateTime DataFim { get; set; }
         public double QuilometragemInicial { get; set; }
         public double QuilometragemFinal { get; set; }
-        public decimal ValorDiaria { get; set; }
+        public double ValorDiaria { get; set; }
         public DateTime? DataDevolucao { get; set; }
     }
 }

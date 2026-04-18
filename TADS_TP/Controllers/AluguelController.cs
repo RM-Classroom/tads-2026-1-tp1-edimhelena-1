@@ -7,7 +7,7 @@ using TADS_TP.Services;
 namespace TADS_TP.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class AluguelController : ControllerBase
     {
         private readonly AluguelService _service;
@@ -167,7 +167,7 @@ namespace TADS_TP.Controllers
 
 
         [HttpGet("valor/{valor}")]
-        public IActionResult GetByValor(decimal valor)
+        public IActionResult GetByValor(double valor)
         {
             try
             {

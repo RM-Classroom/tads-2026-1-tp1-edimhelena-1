@@ -51,7 +51,7 @@ namespace TADS_TP.Repositories
                 .ToList();
         }
 
-        public List<AluguelModel> GetByValor(decimal valor)
+        public List<AluguelModel> GetByValor(double valor)
         {
             return _context.Alugueis
                 .Where(a => a.ValorTotal > valor)
