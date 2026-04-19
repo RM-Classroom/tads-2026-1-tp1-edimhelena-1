@@ -64,7 +64,14 @@ namespace TADS_TP.Services
             if (existente == null)
                 throw new Exception("Aluguel não encontrado");
 
-            _repository.Update(aluguel);
+            existente.DataInicio = aluguel.DataInicio;
+            existente.DataFim = aluguel.DataFim;
+            existente.QuilometragemInicial = aluguel.QuilometragemInicial;
+            existente.QuilometragemFinal = aluguel.QuilometragemFinal;
+            existente.ValorDiaria = aluguel.ValorDiaria;
+            existente.DataDevolucao = aluguel.DataDevolucao;
+
+            _repository.Update(existente);
         }
 
         public void Delete(int id)

@@ -60,7 +60,11 @@ namespace TADS_TP.Services
             if (string.IsNullOrEmpty(cliente.Email))
                 throw new Exception("Email é obrigatório");
 
-            _repository.Update(cliente);
+            res.Nome = cliente.Nome;
+            res.CPF = cliente.CPF;
+            res.Email = cliente.Email;
+
+            _repository.Update(res);
         }
 
         public void Delete(int id)

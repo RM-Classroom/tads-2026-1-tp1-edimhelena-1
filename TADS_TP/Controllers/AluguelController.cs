@@ -158,7 +158,7 @@ namespace TADS_TP.Controllers
                     });
 
                 return Ok(alugueis);
-            }
+            } 
             catch (Exception e)
             {
                 return NotFound(e.Message);

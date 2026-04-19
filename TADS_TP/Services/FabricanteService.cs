@@ -46,7 +46,7 @@ namespace TADS_TP.Services
             FabricanteModel res = _repository.GetById(id);
 
             if (res == null)
-                throw new Exception("Cliente não encontrado");
+                throw new Exception("Fabricante não encontrado");
 
             if (string.IsNullOrEmpty(fabricante.Nome))
                 throw new Exception("Nome é obrigatório");
@@ -54,7 +54,10 @@ namespace TADS_TP.Services
             if (string.IsNullOrEmpty(fabricante.Contato))
                 throw new Exception("Contato é obrigatório");
 
-            _repository.Update(fabricante);
+            res.Nome = fabricante.Nome;
+            res.Contato = fabricante.Contato;
+
+            _repository.Update(res);
         }
 
         public void Delete(int id)

@@ -66,7 +66,12 @@ namespace TADS_TP.Services
             if (pagamento.DataPagamento == default)
                 throw new Exception("Data de pagamento é obrigatória");
 
-            _repository.Update(pagamento);
+            existente.DataPagamento = pagamento.DataPagamento;
+            existente.Valor = pagamento.Valor;
+            existente.Status = pagamento.Status;
+            existente.DataPagamento = pagamento.DataPagamento;
+
+            _repository.Update(existente);
         }
 
         public void Delete(int id)

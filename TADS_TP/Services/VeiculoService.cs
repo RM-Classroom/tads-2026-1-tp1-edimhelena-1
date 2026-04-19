@@ -57,10 +57,12 @@ namespace TADS_TP.Services
             if (veiculo.Ano <= 0)
                 throw new Exception("Ano de fabricação inválido");
 
-            if (veiculo.FabricanteId <= 0)
-                throw new Exception("Fabricante é obrigatório");
+            existente.Modelo = veiculo.Modelo;
+            existente.Ano = veiculo.Ano;
+            existente.Quilometragem = veiculo.Quilometragem;
+            existente.FabricanteId = veiculo.FabricanteId;
 
-            _repository.Update(veiculo);
+            _repository.Update(existente);
         }
 
         public void Delete(int id)

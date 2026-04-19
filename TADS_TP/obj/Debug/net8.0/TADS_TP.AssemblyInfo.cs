@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TADS_TP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72dae68b77128b08f11761b22e0e98ed67fa61ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23da81211f25bd6eec3b16231bfbe117260e0147")]
 [assembly: System.Reflection.AssemblyProductAttribute("TADS_TP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TADS_TP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
