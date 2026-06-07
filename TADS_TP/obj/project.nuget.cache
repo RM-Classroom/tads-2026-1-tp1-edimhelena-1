@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OOB3mDRUVsg=",
+  "dgSpecHash": "I+P48zIVVIg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\TADS_TP.csproj",
+  "projectFilePath": "C:\\Users\\Meu Computador\\Documents\\helena faculdade\\4 periodo\\TADS\\Trabalho\\tads-2026-1-tp1-edimhelena-1\\TADS_TP\\TADS_TP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Meu Computador\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Meu Computador\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

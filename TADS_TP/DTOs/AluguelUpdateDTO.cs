@@ -8,5 +8,7 @@
         public double QuilometragemFinal { get; set; }
         public double ValorDiaria { get; set; }
         public DateTime? DataDevolucao { get; set; }
+        public int VeiculoId { get; set; }
+        public int ClienteId { get; set; }
     }
 }

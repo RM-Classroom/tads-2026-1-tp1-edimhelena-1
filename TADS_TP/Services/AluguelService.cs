@@ -70,6 +70,11 @@ namespace TADS_TP.Services
             existente.QuilometragemFinal = aluguel.QuilometragemFinal;
             existente.ValorDiaria = aluguel.ValorDiaria;
             existente.DataDevolucao = aluguel.DataDevolucao;
+            existente.VeiculoId = aluguel.VeiculoId;
+            existente.ClienteId = aluguel.ClienteId;
+
+            var dias = Math.Max(0, (existente.DataFim - existente.DataInicio).Days);
+            existente.ValorTotal = dias * existente.ValorDiaria;
 
             _repository.Update(existente);
         }

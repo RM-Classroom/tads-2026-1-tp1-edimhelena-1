@@ -44,7 +44,13 @@ namespace TADS_TP.Controllers
                     Id = a.Id,
                     DataInicio = a.DataInicio,
                     DataFim = a.DataFim,
-                    ValorTotal = a.ValorTotal
+                    QuilometragemInicial = a.QuilometragemInicial,
+                    QuilometragemFinal = a.QuilometragemFinal,
+                    ValorDiaria = a.ValorDiaria,
+                    ValorTotal = a.ValorTotal,
+                    DataDevolucao = a.DataDevolucao,
+                    VeiculoId = a.VeiculoId,
+                    ClienteId = a.ClienteId
                 };
 
                 return Ok(dto);
@@ -93,7 +99,9 @@ namespace TADS_TP.Controllers
                     QuilometragemInicial = dto.QuilometragemInicial,
                     QuilometragemFinal = dto.QuilometragemFinal,
                     ValorDiaria = dto.ValorDiaria,
-                    DataDevolucao = dto.DataDevolucao
+                    DataDevolucao = dto.DataDevolucao,
+                    VeiculoId = dto.VeiculoId,
+                    ClienteId = dto.ClienteId
                 };
 
                 _service.Update(id, aluguel);

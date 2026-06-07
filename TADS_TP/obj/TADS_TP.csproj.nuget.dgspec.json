@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\TADS_TP.csproj": {}
+    "C:\\Users\\Meu Computador\\Documents\\helena faculdade\\4 periodo\\TADS\\Trabalho\\tads-2026-1-tp1-edimhelena-1\\TADS_TP\\TADS_TP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\TADS_TP.csproj": {
+    "C:\\Users\\Meu Computador\\Documents\\helena faculdade\\4 periodo\\TADS\\Trabalho\\tads-2026-1-tp1-edimhelena-1\\TADS_TP\\TADS_TP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\TADS_TP.csproj",
+        "projectUniqueName": "C:\\Users\\Meu Computador\\Documents\\helena faculdade\\4 periodo\\TADS\\Trabalho\\tads-2026-1-tp1-edimhelena-1\\TADS_TP\\TADS_TP.csproj",
         "projectName": "TADS_TP",
-        "projectPath": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\TADS_TP.csproj",
+        "projectPath": "C:\\Users\\Meu Computador\\Documents\\helena faculdade\\4 periodo\\TADS\\Trabalho\\tads-2026-1-tp1-edimhelena-1\\TADS_TP\\TADS_TP.csproj",
         "packagesPath": "C:\\Users\\Meu Computador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Meu Computador\\source\\repos\\TADS_TP\\TADS_TP\\obj\\",
+        "outputPath": "C:\\Users\\Meu Computador\\Documents\\helena faculdade\\4 periodo\\TADS\\Trabalho\\tads-2026-1-tp1-edimhelena-1\\TADS_TP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
