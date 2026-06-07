@@ -70,6 +70,7 @@ namespace TADS_TP.Controllers
             {
                 var fabricante = new FabricanteModel
                 {
+                    Id = id,
                     Nome = dto.Nome,
                     Contato = dto.Contato
                 };

@@ -110,7 +110,7 @@
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/ui.js"></script>
+    <script src="/js/ui.js"></script>
     <script>
         const api = '/api/Veiculo';
         async function loadVeiculos() { const { ok, data } = await request(api); if (!ok) return alert('Erro ao carregar veículos'); renderRows('veiculoTableBody', data, v => `<tr><td>${v.id}</td><td>${v.modelo}</td><td>${v.ano}</td><td>${v.quilometragem}</td><td>${v.fabricanteId}</td><td><button class="btn btn-outline-warning btn-sm me-1" onclick='editarVeiculo(${JSON.stringify(v)})'>Editar</button><button class="btn btn-outline-danger btn-sm" onclick='excluirVeiculo(${v.id})'>Excluir</button></td></tr>`); }

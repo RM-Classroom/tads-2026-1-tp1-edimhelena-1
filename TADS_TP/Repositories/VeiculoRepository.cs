@@ -27,15 +27,22 @@ namespace TADS_TP.Repositories
             }
         }
 
-        public void Update(VeiculoModel fabricante)
-        {
-            _context.Veiculos.Update(fabricante);
+        public void Update(VeiculoModel veiculo)
+        s{
+            var existente = _context.Veiculos.Find(veiculo.Id);
+            if (existente == null) return;
+    
+            existente.Modelo = veiculo.Modelo;
+            existente.Ano = veiculo.Ano;
+            existente.Quilometragem = veiculo.Quilometragem;
+            existente.FabricanteId = veiculo.FabricanteId;
+    
             _context.SaveChanges();
         }
 
         public VeiculoModel GetById(int id)
         {
-            return _context.Veiculos.Find(id);
+            return _context.Veiculos.AsNoTracking().FirstOrDefault(v => v.Id == id);
         }
 
         public List<VeiculoModel> GetAll()

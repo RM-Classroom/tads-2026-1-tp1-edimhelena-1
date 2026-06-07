@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TADS_TP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20a8f87d0355200e51712d86e5b0c1b11183a918")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+252e2bbe1e83df3fa307b5997cb308541eaf24cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TADS_TP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TADS_TP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
