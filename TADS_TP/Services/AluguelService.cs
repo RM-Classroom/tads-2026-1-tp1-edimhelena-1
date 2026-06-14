@@ -91,32 +91,17 @@ namespace TADS_TP.Services
 
         public List<AluguelModel> GetCompleto()
         {
-            var dados = _repository.GetCompleto();
-
-            if (dados == null || dados.Count == 0)
-                throw new Exception("Nenhum aluguel encontrado");
-
-            return dados;
+            return _repository.GetCompleto() ?? new List<AluguelModel>();
         }
 
         public List<AluguelModel> GetByCliente(int clienteId)
         {
-            var alugueis = _repository.GetByCliente(clienteId);
-
-            if (alugueis == null || alugueis.Count == 0)
-                throw new Exception("Nenhum aluguel encontrado para este cliente");
-
-            return alugueis;
+            return _repository.GetByCliente(clienteId) ?? new List<AluguelModel>();
         }
 
         public List<AluguelModel> GetByValor(double valor)
         {
-            var alugueis = _repository.GetByValor(valor);
-
-            if (alugueis == null || alugueis.Count == 0)
-                throw new Exception("Nenhum aluguel encontrado com esse valor");
-
-            return alugueis;
+            return _repository.GetByValor(valor) ?? new List<AluguelModel>();
         }
     }
 }

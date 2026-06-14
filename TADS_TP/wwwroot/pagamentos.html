@@ -38,6 +38,7 @@
                         <div class="mb-3"><label class="form-label text-white">Aluguel ID</label><input type="number"
                                 class="form-control" id="pagamentoAluguelId" required /></div>
                         <button class="btn btn-primary w-100">Salvar pagamento</button>
+                        <button type="button" class="btn btn-secondary w-100 mt-2" onclick="cancelarEdicaoPagamento()">Cancelar</button>
                     </form>
                 </div>
                 <div class="col-lg-8">
@@ -79,8 +80,9 @@
         async function loadPagamentos() { const { ok, data } = await request(api); if (!ok) return alert('Erro ao carregar pagamentos'); renderRows('pagamentoTableBody', data, p => `<tr><td>${p.id}</td><td>R$ ${p.valor?.toFixed(2) || '0,00'}</td><td>${p.status}</td><td><button class="btn btn-outline-warning btn-sm me-1" onclick='editarPagamento(${JSON.stringify(p)})'>Editar</button><button class="btn btn-outline-danger btn-sm" onclick='excluirPagamento(${p.id})'>Excluir</button></td></tr>`); }
         async function buscarPorAluguel() { const aluguelId = Number(document.getElementById('aluguelPagamentoFiltro').value); if (!aluguelId) return alert('Informe um ID de aluguel'); const { ok, data } = await request(`${api}/aluguel/${aluguelId}`); if (!ok) return alert('Nenhum pagamento encontrado para esse aluguel'); renderRows('consultaPagamentoTableBody', data, p => `<tr><td>${p.id}</td><td>R$ ${p.valor?.toFixed(2) || '0,00'}</td><td>${p.status}</td></tr>`); }
         function editarPagamento(p) { document.getElementById('pagamentoId').value = p.id; document.getElementById('pagamentoDataPagamento').value = p.dataPagamento ? p.dataPagamento.slice(0, 16) : ''; document.getElementById('pagamentoValor').value = p.valor; document.getElementById('pagamentoStatus').value = p.status; document.getElementById('pagamentoAluguelId').value = p.aluguelId || ''; }
-        async function salvarPagamento(e) { e.preventDefault(); const id = document.getElementById('pagamentoId').value; const payload = { dataPagamento: document.getElementById('pagamentoDataPagamento').value, valor: Number(document.getElementById('pagamentoValor').value), status: document.getElementById('pagamentoStatus').value, aluguelId: Number(document.getElementById('pagamentoAluguelId').value) }; const res = await request(id ? `${api}/${id}` : api, { method: id ? 'PUT' : 'POST', body: JSON.stringify(payload) }); if (!res.ok) return alert('Erro ao salvar pagamento'); e.target.reset(); loadPagamentos(); }
+        async function salvarPagamento(e) { e.preventDefault(); const id = document.getElementById('pagamentoId').value; const payload = { dataPagamento: document.getElementById('pagamentoDataPagamento').value, valor: Number(document.getElementById('pagamentoValor').value), status: document.getElementById('pagamentoStatus').value, aluguelId: Number(document.getElementById('pagamentoAluguelId').value) }; const res = await request(id ? `${api}/${id}` : api, { method: id ? 'PUT' : 'POST', body: JSON.stringify(payload) }); if (!res.ok) return alert('Erro ao salvar pagamento'); document.getElementById('pagamentoId').value = ''; document.getElementById('pagamentoForm').reset(); loadPagamentos(); }
         async function excluirPagamento(id) { if (!confirm('Confirmar exclusão?')) return; const res = await request(`${api}/${id}`, { method: 'DELETE' }); if (!res.ok) return alert('Erro ao excluir pagamento'); loadPagamentos(); }
+        function cancelarEdicaoPagamento() { document.getElementById('pagamentoId').value = ''; document.getElementById('pagamentoForm').reset(); }
         window.addEventListener('load', loadPagamentos);
     </script>
 </body>
