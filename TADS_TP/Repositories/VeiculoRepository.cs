@@ -28,7 +28,7 @@ namespace TADS_TP.Repositories
         }
 
         public void Update(VeiculoModel veiculo)
-        s{
+        {
             var existente = _context.Veiculos.Find(veiculo.Id);
             if (existente == null) return;
     
